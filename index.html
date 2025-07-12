@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gabriella & Victor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(to right, #fbd3e9, #bb377d);
+      color: white;
+      scroll-behavior: smooth;
+      animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 1rem 0;
+      text-align: center;
+      z-index: 999;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd1e7;
+    }
+
+    section {
+      padding: 7rem 2rem 4rem;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.5em;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1.3em;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 12px 25px;
+      background-color: #ffffff;
+      color: #bb377d;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .button:hover {
+      background-color: #ffd1e7;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="historia.html">Nossa História</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="datas.html">Datas Especiais</a>
+  </nav>
+
+  <section>
+    <h1>Gabriella & Victor</h1>
+
+    <p><em>O que começou como um TP de banco de dados virou a nossa história.</em></p>
+    <p><em>Estar com você é como viver a vida que eu sempre imaginei.</em></p>
+    <p><em>Aqui é onde guardamos cada pedacinho da nossa história. E o melhor: ela está só começando.</em></p>
+
+    <a href="historia.html" class="button">Ler nossa história 💌</a>
+  </section>
+
+</body>
+</html>
